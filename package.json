@@ -1,0 +1,17 @@
+{
+  "name": "html_template",
+  "version": "1.0.0",
+  "description": "this is the test html template ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sunil",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.1",
+    "nodemon": "^1.12.1"
+  }
+}
