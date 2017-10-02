@@ -1,5 +1,5 @@
-app.controller('appController', function() {
-    
+app.controller('appController', function($scope) {
 
 
-})
+
+});

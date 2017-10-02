@@ -3,20 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>TEMPLATE ANGULAR</title>
     <!-- node modules -->
     <script src="scripts/angular/angular.js"></script>
     <script src="scripts/jquery/dist/jquery.js"></script>
+    <script src="scripts/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="scripts/bootstrap/dist/css/bootstrap.css">
     <!-- node modules -->
     <script src="./js/app.js"></script>
-    <script src="./js/app.js"></script>
     <script src="./js/controllers/appcontroller.js"></script>
+    <script src="./js/directives/directive.js"></script>
 </head>
 
 <body ng-app="myapp" ng-controller="appController">
-    {{2+9}}
-<div class="row">sasas</div>
-</body>
+    <div class="container">
+        <page-header></page-header>
+        <page-jumbotron></page-jumbotron>
+    </div>
 
+</body>
+<script>
+    
+
+</script>
 </html>
